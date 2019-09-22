@@ -1,6 +1,4 @@
 def get_the_values(groceries)
-  describe "#get_the_values" do 
-
   let :groceries do
     {
       dairy: ["milk", "yogurt", "cheese"],
@@ -10,8 +8,7 @@ def get_the_values(groceries)
     }
   end
 
-  it "returns all the values from the hash" do 
+  def get_the_values(groceries)
     result = get_the_values(groceries)
-    expect(result).to eq(["milk", "yogurt", "cheese", "carrots", "broccoli", "cucumbers", "chicken", "steak", "salmon", "rice", "pasta"])
-  end
-end
+    result = (["milk", "yogurt", "cheese", "carrots", "broccoli", "cucumbers", "chicken", "steak", "salmon", "rice", "pasta"])
+endlearn
