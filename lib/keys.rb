@@ -10,7 +10,7 @@ def get_the_keys(groceries)
 
   def get_the_keys(groceries)
     result = get_the_keys(groceries)
-    puts (result)=([:dairy, :vegetable, :meat, :grains])
+    result)=([:dairy, :vegetable, :meat, :grains])
   end
 
 
