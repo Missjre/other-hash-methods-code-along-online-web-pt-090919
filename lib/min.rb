@@ -11,5 +11,5 @@ def get_the_min(groceries)
 
   def get_the_min(groceries)
     result = get_the_min(groceries)
-    result=("broccoli")
+    result = ("broccoli")
 end
