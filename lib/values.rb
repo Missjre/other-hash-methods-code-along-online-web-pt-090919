@@ -11,4 +11,4 @@ def get_the_values(groceries)
   def get_the_values(groceries)
     result = get_the_values(groceries)
     result = (["milk", "yogurt", "cheese", "carrots", "broccoli", "cucumbers", "chicken", "steak", "salmon", "rice", "pasta"])
-endlearn
+end
